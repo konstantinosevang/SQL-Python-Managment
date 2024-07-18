@@ -23,6 +23,3 @@ venv/
 
 # Miscellaneous
 *.swp
-*.log
-*.db
-venv/
