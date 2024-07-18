@@ -4,13 +4,13 @@ def run_setup():
     """
     Run the database setup script.
     """
-    subprocess.run(["python", "db_setup.py"])
+    subprocess.run(["python", "sql-ex/db_setup.py"])
 
 def run_gui():
     """
     Run the GUI script.
     """
-    subprocess.run(["python", "gui.py"])
+    subprocess.run(["python", "sql-ex/gui.py"])
 
 def main():
     """
