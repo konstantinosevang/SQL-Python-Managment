@@ -15,6 +15,32 @@ In this example, the template is customized to manage car parts, suppliers, cust
 - Query Execution: Execute predefined SQL queries to view parts, suppliers, customers, and orders.
 - User-Friendly GUI: Simple and intuitive GUI for managing the database.
 
+## Screenshots
+
+### Main Interface
+
+![Main Interface](path_to_image1.png)
+
+The main interface of the Car Parts Database GUI provides buttons to view different types of data:
+
+- View Parts
+- View Suppliers
+- View Customers
+- View Orders
+- Insert Data
+
+It also displays a table showing sample data for car parts, including ID, Name/Description, Additional Info, Price/Date, Stock/Contact, and Supplier/Customer ID.
+
+### Data Insertion Interface
+
+![Data Insertion Interface](path_to_image2.png)
+
+The data insertion interface allows users to add new entries to the database:
+
+- A dropdown menu to select the table for data insertion (e.g., Orders)
+- Input fields for relevant data (e.g., order_id, order_date, customer_id, total_amount)
+- An "Insert" button to submit the new data
+
 ## Requirements
 
 - Python 3.x
@@ -27,7 +53,7 @@ In this example, the template is customized to manage car parts, suppliers, cust
 
    ```sh
    git clone https://github.com/konstantinosevang/SQL-Python-Managment.git
-   cd SQL-Python-Managment
+   cd car-parts-management
    ```
 
 2. Create a Virtual Environment:
